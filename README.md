@@ -1,13 +1,13 @@
 # PSP_ActEva3_Ev1
 
-## 🍽️ Simulador de Cocina Multihilo (Java y Python)
+## Simulador de Cocina Multihilo (Java y Python)
 
 Este proyecto simula el funcionamiento de la cocina de un restaurante, donde varios **cocineros** (hilos) preparan **pedidos** de manera concurrente.  
 El objetivo es practicar la **programación concurrente** y la **sincronización de hilos** en dos lenguajes distintos: **Java** y **Python**.
 
 ---
 
-## 🧠 Descripción del proyecto
+## Descripción del proyecto
 
 Cada cocinero toma un pedido de una lista compartida, lo prepara (simulado con un retardo de tiempo) y registra la operación en un archivo de log.  
 La sincronización garantiza que **solo un hilo acceda al recurso compartido** (lista de pedidos o archivo de registro) en cada momento, evitando conflictos o corrupción de datos.
@@ -16,7 +16,7 @@ El comportamiento del programa es equivalente tanto en Java como en Python.
 
 ---
 
-## 🗂️ Estructura del repositorio
+## Estructura del repositorio
 ├── java/
 │ ├── cocina.java
 │ ├── cocinero.java
@@ -32,7 +32,7 @@ El comportamiento del programa es equivalente tanto en Java como en Python.
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Java 17+**  
   - Uso de `Thread`, `synchronized` y bloqueos de objetos.  
@@ -41,7 +41,7 @@ El comportamiento del programa es equivalente tanto en Java como en Python.
 
 ---
 
-## ▶️ Ejecución del proyecto
+## Ejecución del proyecto
 
 ### En **Java**
 1. Abre la carpeta `java/`.
